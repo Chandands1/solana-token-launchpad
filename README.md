@@ -33,25 +33,46 @@ In Solana, a transaction is composed of multiple instructions.
 
 ## ⚙️ Project Setup
 
-1. Clone the repo:  
-   [Solana Token Launchpad Repo](https://github.com/Chandands1/solana-token-launchpad.git)
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/Chandands1/solana-token-launchpad.git
+   cd solana-token-launchpad
+   ```
 
-2. Install dependencies with `npm install`.
+2. **Install dependencies**  
+   ```bash
+   npm install
+   ```
 
-3. Run the app locally using `npm run dev`.
+3. **Install wallet adapter and Solana packages**  
+   ```bash
+   npm install @solana/web3.js \
+               @solana/spl-token \
+               @solana/wallet-adapter-base \
+               @solana/wallet-adapter-react \
+               @solana/wallet-adapter-react-ui \
+               @solana/wallet-adapter-wallets
+   ```
 
-4. Set up the wallet adapter and connect your Solana wallet (e.g., Phantom).
+4. **Install Vite plugin for node polyfills**  
+   ```bash
+   npm install --save-dev vite-plugin-node-polyfills
+   ```
+
+5. **Run the project**  
+   ```bash
+   npm run dev
+   ```
 
 ---
 
-## 📦 Main Dependencies
+## 🧰 Tech Stack
 
-- **React**
-- **Vite**
-- **@solana/web3.js**
-- **@solana/spl-token**
-- **Solana Wallet Adapter**
-- **vite-plugin-node-polyfills** (for browser compatibility)
+- **React + Vite**
+- **Solana Web3.js**
+- **Solana SPL Token & Token-2022**
+- **Wallet Adapter**
+- **Node Polyfills**
 
 ---
 
@@ -82,7 +103,7 @@ In Solana, a transaction is composed of multiple instructions.
 
 ## 🙌 Acknowledgements
 
-Thanks to [Harkirat Singh](https://twitter.com/hkiratS) and the [100xDevs](https://100xdevs.com) community for the guidance and mentorship on Solana development.
+Thanks to [Harkirat Singh](https://twitter.com/kirat_tw) and the [100xDevs](https://100xdevs.com) community for the guidance and mentorship on Solana development.
 
 ---
 
